@@ -1,0 +1,94 @@
+.navbar{
+  display: flex;
+  background-color: black;
+  height: 10vh;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.righttop{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.righttop a{
+  color:white;
+  text-decoration: none;
+}
+
+.products{
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; */
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+img{
+  height: 340;
+}
+
+.cardcontainer img{
+  height:"53px";
+  width:"40px";
+  cursor: pointer;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product{
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  width: 400px;
+}
+
+.product .description{
+  text-align: center;
+}
+
+.product:hover{
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.addtocartbtn{
+  background-color: transparent;
+  border: 2px solid rgb(19,19,19);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+.addtocartbtn:hover{
+  background-color: rgb(19,19,19);
+  color: white;
+  cursor: pointer;
+}
